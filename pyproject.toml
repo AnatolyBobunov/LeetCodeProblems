@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "LeetCodeProblems"
+version = "0.0.1"
+description = "A personal repository where I keep my solutions to LeetCode problems"
+authors = ["Anatoly Bobunov <dev.bobunov@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^22.8.0"
+isort = "^5.10.1"
+flake8 = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
