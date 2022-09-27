@@ -21,11 +21,6 @@ Output: [3,4,6,16,17]
 """
 
 
-"""
-09/27/2022 Time 78ms (34.09%) Memory 14.2MB (27.21%)
-"""
-
-
 class Solution:
     def runningSum(self, nums: List[int]) -> List[int]:
         sum_list = []
