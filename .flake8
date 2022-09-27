@@ -1,0 +1,6 @@
+[flake8]
+ignore =
+    E501, # line too long
+exclude = .git, __pycache__, bin/, venv/, .venv/,
+max-line-length = 120
+max-complexity = 10
